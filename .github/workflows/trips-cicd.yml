@@ -4,10 +4,10 @@ env:
   registry: docker.pkg.github.com
   repository: perktime/DTADevOpsOpenHack/api-trips
   docker_path: apis/trips
-  staging_url: https://openhack6bl0kqz0poi-staging.azurewebsites.net
-  prod_url: https://openhack6bl0kqz0poi.azurewebsites.net
+  staging_url: https://openhack6bl0kqz0trips-staging.azurewebsites.net
+  prod_url: https://openhack6bl0kqz0trips.azurewebsites.net
   resource_group: openhack6bl0kqz0rg
-  webapp_name: openhack6bl0kqz0poi
+  webapp_name: openhack6bl0kqz0trips
   build_name: Trips
   webv_path: apis/trips/webvalidate
 
